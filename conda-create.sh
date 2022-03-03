@@ -4,4 +4,4 @@ conda deactivate
 conda create -n $envname python==3.9 numpy scipy pandas seaborn scikit-learn jupyter --yes
 conda activate $envname
 conda install bertopic --channel conda-forge --yes
-pip install jupyterlab
+pip install jupyterlab pandarallel
